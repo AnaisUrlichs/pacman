@@ -1,9 +1,9 @@
-name: Release Charts
+name: release-helm-chart
 
 on:
   push:
     branches:
-      - main
+      - rejekts
 
 jobs:
   release:
@@ -27,6 +27,17 @@ jobs:
       - name: Add helm repo dependencies 
         run: |
           helm repo add bitnami https://charts.bitnami.com/bitnami
+
+      - name: Run Trivy security scanning of the Helm Chart
+        uses: aquasecurity/trivy-action@master
+        with:
+          scan-type: 'config'
+          scan-ref: './charts'
+          ignore-unfixed: true
+          format: 'table'
+          exit-code: '1'
+          trivyignores: './security/.trivyignore.yaml'
+          severity: 'CRITICAL,HIGH'
 
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.3.0

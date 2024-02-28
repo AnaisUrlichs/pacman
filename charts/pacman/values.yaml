@@ -5,9 +5,9 @@ pacman:
   replicaCount: 1
   image:
     registry: ghcr.io
-    repository: shuguet
+    repository: AnaisUrlichs
     image: pacman
-    tag: latest
+    tag: 0.1.0
     pullPolicy: Always
 
 mongodb:

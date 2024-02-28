@@ -5,6 +5,14 @@ Pac-Man Demo App for Kubernetes
 [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/pacman)](https://artifacthub.io/packages/search?repo=pacman)
 ![Build & Publish Container](https://github.com/shuguet/pacman/actions/workflows/docker-image.yaml/badge.svg)
 
+## Rejekts Game Development -- Demo Repository for Cloud Narive Rejekts
+
+Talk:  [The Bang! - When bad things happen to your data](https://cfp.cloud-native.rejekts.io/cloud-native-rejekts-eu-paris-2024/talk/YAYJS8/)
+Date: 18.03.2024
+Speakers: [Michael Cade](https://twitter.com/MichaelCade1), [Anais Urlichs](https://twitter.com/urlichsanais)
+
+!["Logo image for presentation"](./assets/logo.png)
+
 ## Installation instructions:
 [Using Helm](https://artifacthub.io/packages/helm/pacman/pacman)
 
