@@ -62,7 +62,7 @@ jobs:
       - name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@master
         with:
-          image-ref: 'ghcr.io/${{ github.repository_owner }}/pacman:sha-${{ env.SHORT_SHA }}'
+          image-ref: 'ghcr.io/anaisurlichs/pacman:sha-${{ env.SHORT_SHA }}'
           format: 'table'
           exit-code: '1'
           ignore-unfixed: true
@@ -75,7 +75,7 @@ jobs:
       - name: Scan image in a private registry
         uses: aquasecurity/trivy-action@master
         with:
-          image-ref: 'ghcr.io/${{ github.repository_owner }}/pacman:sha-${{ env.SHORT_SHA }}'
+          image-ref: 'ghcr.io/anaisurlichs/pacman:sha-${{ env.SHORT_SHA }}'
           scan-type: image
           format: 'github'
           output: 'dependency-results.sbom.json'
