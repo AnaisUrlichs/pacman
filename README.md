@@ -13,6 +13,13 @@ Speakers: [Michael Cade](https://twitter.com/MichaelCade1), [Anais Urlichs](http
 
 !["Logo image for presentation"](./assets/logo.png)
 
+## Security
+
+Run the rego policies on the Helm Chart:
+```
+trivy fs --scanners misconf --policy ./security/policies --namespaces custom ./Dockerfile
+```
+
 ## Installation instructions:
 [Using Helm](https://artifacthub.io/packages/helm/pacman/pacman)
 
