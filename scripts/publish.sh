@@ -10,7 +10,7 @@
 #
 # Required tools:
 #   - docker
-NEW_VERSION='0.1.13'
+NEW_VERSION='0.1.0'
 GITHUB_USERNAME='shuguet'
 GITHUB_TOKEN='nice try'
 
