@@ -15,7 +15,7 @@ mongodb:
 
 ## Service configuration.
 service:
-  type: ClusterIP
+  type: Loadbalancer
   port: 80
 
 ## Ingress configuration.
