@@ -12,6 +12,8 @@ pacman:
 
 mongodb:
   enabled: true
+  service:
+    type: Loadbalancer
 
 ## Service configuration.
 service:
