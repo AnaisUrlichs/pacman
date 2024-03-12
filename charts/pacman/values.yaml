@@ -13,11 +13,11 @@ pacman:
 mongodb:
   enabled: true
   service:
-    type: Loadbalancer
+    type: LoadBalancer
 
 ## Service configuration.
 service:
-  type: Loadbalancer
+  type: LoadBalancer
   port: 80
 
 ## Ingress configuration.

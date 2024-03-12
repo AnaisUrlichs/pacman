@@ -1,8 +1,7 @@
 ## Download the latest release
 
 * v0.2.0 -- [does not have the Loadbalancer](https://github.com/AnaisUrlichs/pacman/releases/tag/pacman-0.2.0)
-* v0.2.1 -- [has the Loadbalancer in pacman](https://github.com/AnaisUrlichs/pacman/releases/tag/pacman-0.2.1)
-* v0.2.2 -- [has the Loadbalancer in pacman and in MongoDB](https://github.com/AnaisUrlichs/pacman/releases/tag/pacman-0.2.2)
+* v0.2.3 -- [has the Loadbalancer in pacman and in MongoDB](https://github.com/AnaisUrlichs/pacman/releases/tag/pacman-0.2.2)
 
 e.g. pacman-0.2.0.tgz 
 
