@@ -13,11 +13,11 @@ pacman:
 mongodb:
   enabled: true
   service:
-    type: LoadBalancer
+    type: ClusterIP
 
 ## Service configuration.
 service:
-  type: LoadBalancer
+  type: ClusterIP
   port: 80
 
 ## Ingress configuration.
